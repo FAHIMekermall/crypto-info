@@ -4,9 +4,9 @@ import ActiveLink from "../AcitveLInk/ActiveLink"
 
 const Header = () => {
 	return (
-		<nav className="h-10 md:h-24 lg:h-28 flex items-center justify-center md:justify-between mx-16 ">
+		<nav className="h-10 md:h-24 lg:h-28 flex items-center justify-center md:justify-between px-16 sticky bg-white top-0">
 			<Link to="/">
-				<p className="text-4xl font-bold font-mono hidden md:block text-gray-500">
+				<p className="text-4xl font-bold font-mono hidden md:block text-gray-700">
 					<p>Crypto Info</p>
 				</p>
 			</Link>

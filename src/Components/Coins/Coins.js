@@ -22,7 +22,7 @@ const Coins = () => {
 				<Spinner></Spinner>
 			) : (
 				<div className="bg-slate-100">
-					<div className="grid grip-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-14 justify-items-center ">
+					<div className="grid grip-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 py-14 px-4 md:px-28 justify-items-center ">
 						{coins.map((coin) => (
 							<Coin key={coin.id} coin={coin}></Coin>
 						))}
